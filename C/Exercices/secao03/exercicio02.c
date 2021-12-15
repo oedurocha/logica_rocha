@@ -1,38 +1,30 @@
 /*
-Seção 3 - Exercício 2
 
-Faça um algoritmo para "calcular o estoque médio de ua peça", sendo que:
+Elabore um algorítmo que leia um número. Se positivo armazene-o
+em 'a', se for negativo em 'b'. NO final mostrar o resultado.
 
-estoque_medio = (quantidade_minima + quantidade_maxima) / 2
-
-"calcular estoque médio"
-
-receber quantidade_minima
-receber quantidade_maxima
-somar quantidade_minima e quantidade_maxima
-dividir o resultado da soma por 2 
-mostrar o resultado da divisao
 */
 
 #include <stdio.h>
 
 int main()
 {
+    //Variáveis
+    int num, a, b;
 
-    //DECLARAÇÃO DE VARIÁVEIS
-    int quantidade_minima, quantidade_maxima;
-    float estoque_medio;
+    //Entrada
+    printf("Informe um número: ");
+    scanf("%d", &num);
 
-    //ENTRADAS
-    printf("Informe quantidade minima em estoque: ");
-    scanf("%d", &quantidade_minima);
-
-    printf("Informe quantidade maxima em estoque: ");
-    scanf("%d", &quantidade_maxima);
-
-    //PROCESSAMENTO
-    estoque_medio = (quantidade_minima + quantidade_maxima) / 2;
-
-    //SAÍDA
-    printf("O estoque médio é %f ", estoque_medio);
+    //Processamento
+    if (num > 0)
+    {
+        a = num;
+        printf("O número %d é positivo.", num);
+    }
+    else
+    {
+        b = num;
+        printf("O número %d é negativo.", num);
+    }
 }

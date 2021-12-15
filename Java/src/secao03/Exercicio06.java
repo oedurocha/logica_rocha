@@ -1,25 +1,28 @@
-package secao03;
+package secao06;
 
 import java.util.Scanner;
 
 public class Exercicio06 {
     public static void main(String[] args) {
         // var
-        int horas_trabalhadas;
-        float valor_hora, salario;
+        float horas_trabalhadas, extra=0, salario, valor_hora = 10;
         Scanner teclado = new Scanner(System.in);
 
         // input
-        System.out.println("Infome quanto você ganha por hora:");
-        valor_hora = teclado.nextFloat();
-        System.out.println("Infome quantas horas você trabalhou no mês:");
-        horas_trabalhadas = teclado.nextInt();
+        System.out.println("Informe a quantidade de horas trabalhadas:");
+        horas_trabalhadas = teclado.nextFloat();
 
         // processing
-        salario = valor_hora * horas_trabalhadas;
+        if (horas_trabalhadas > 50) {
+            extra = (horas_trabalhadas - 50) * 20;
+            salario = (50 * valor_hora) + extra;
+            System.out.printf("Salário total: R$%.2f\n", salario);
+            System.out.printf("Salário excedente: R$%.2f\n", extra);
+        } else{
+            salario = horas_trabalhadas * valor_hora;
+            System.out.printf("Salário total: R$%.2f\n", salario);
+        }
 
-        // output
-        System.out.println("Você receberá R$ " + salario + " no mês.");
         teclado.close();
     }
 }

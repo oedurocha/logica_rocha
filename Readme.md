@@ -116,7 +116,9 @@ Uma lista de exercícios para quem deseja fixar e aprimorar os seus conhecimento
 > - Exercício 6: ⬇️
 
     Elabore um algoritmo que leia as variáveis 'c' e 'n', respectivamente (código e
-    número de horas trabalhadas de um operário). Sabendo que o valor hora é de R$10, calcule o salário do funcionário.
+    número de horas trabalhadas de um operário). Sabendo que o valor hora é de R$10, calcule 
+    o salário do funcionário.
+    
     Se o número de horas exceder a 50 calcule o excesso de pagamento armazenando-o na variável 'e'.
     Caso contrário zerar tal variável. A hora excedente de trabalho vale R$ 20,00.
     No final do processamento, o programa deverá imprimir o salário total e o salário excedente.
@@ -150,7 +152,8 @@ Uma lista de exercícios para quem deseja fixar e aprimorar os seus conhecimento
     Se o indice crescer para 0,4 as industrias do 1° e 2° grupo são intimadas a suspenderem suas atividades;
     Se o índice atingir 0,5 todos os grupos devem ser notificados a paralisarem suas atividades.
 
-    Faça um algoritmo que leia o índice de poluição medido e emita a notificação adequada aos diferentes grupos de empresas.
+    Faça um algoritmo que leia o índice de poluição medido e emita a notificação adequada aos diferentes 
+    grupos de empresas.
 
 &nbsp;
 

@@ -274,7 +274,7 @@ Uma lista de exercícios para quem deseja fixar e aprimorar os seus conhecimento
 
 &nbsp;
 
-> Exercício 6: ⬇️
+> - Exercício 6: ⬇️
 
     Faça um programa que receba um código numérico inteiro e um vetor de cinco posições
     de números reais. Se o código for zero, termine o programa. Se o código for 1, mostre

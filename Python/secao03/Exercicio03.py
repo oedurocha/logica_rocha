@@ -1,9 +1,16 @@
+# var
+p = 0
+i = 0
+
 # input
-num1 = int(input("Informe o primeiro número: "))
-num2 = int(input("Informe o segundo número: "))
+num = int(input("Informe um número: "))
 
 # processing
-soma = num1 + num2
+if num % 2 == 0:
+    p = num
+else:
+    i = num
 
 # output
-print("A soma dos números é: {0}".format(soma))
+print(p)
+print(i)

@@ -1,10 +1,9 @@
-# input
-num1 = int(input("Informe o primeiro número: "))
-num2 = int(input("Informe o segundo número: "))
+# INPUT
+quantidade_minima = int(input("Informe a quantidade mínima em estoque: "))
+quantidade_maxima = int(input("Informa a quantidade máxima em estoque: "))
 
-# processing
-soma = num1 + num2
-multiplicacao = soma * num1
+# PROCESSING
+estoque_medio = (quantidade_maxima + quantidade_maxima) /2
 
-# output
-print("O resultado da multiplicação é {0}". format(multiplicacao))
+# OUTPUT
+print("O estoque médio é: {0}".format(estoque_medio))

@@ -1,9 +1,10 @@
-# INPUT
-quantidade_minima = int(input("Informe a quantidade mínima em estoque: "))
-quantidade_maxima = int(input("Informa a quantidade máxima em estoque: "))
+# input
+valor = int(input("Insira um valor: "))
 
-# PROCESSING
-estoque_medio = (quantidade_maxima + quantidade_maxima) /2
-
-# OUTPUT
-print("O estoque médio é: {0}".format(estoque_medio))
+# processing
+if valor >= 0:
+    valor = valor
+    print("{0} é positivo.".format(valor))
+else:
+    valor = valor
+    print("{0} é negativo.".format(valor))

@@ -1,8 +1,16 @@
+# var
+excesso = 0
+multa = 0
+
 # input
-metros = int(input("Infome o valor em metros: "))
+peso = float(input("Informe o peso da pesca: "))
 
 # processing
-centimetros = metros * 100
-
-# output
-print("{0} metros em centímetros é {1}".format(metros, centimetros))
+if peso > 50:
+    excesso = peso - 50
+    multa = excesso * 40
+    print("Você deverá pagar R$ {0:.2f} de multa.".format(multa))
+else:
+    print("Peso: {0:.2f} Kg".format(peso))
+    print("Multas: R$ {0:.2f}".format(multa))
+    print("Excesso: R$ {0:.2f}".format(excesso))

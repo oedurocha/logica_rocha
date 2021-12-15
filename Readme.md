@@ -25,9 +25,8 @@ Uma lista de exercícios para quem deseja fixar e aprimorar os seus conhecimento
 
 ## Seção 02
 
-> - Exercicio 01:
-
-    Faça um algoritmo para "calcular o estoque médio de uma peça", sendo que: <br>    _estoque_medio = (quantidade_minima + quantidade_maxima) / 2_
+> - Exercicio 01: <br>
+>   Faça um algoritmo para "calcular o estoque médio de uma peça", sendo que: <br>    _estoque_medio = (quantidade_minima + quantidade_maxima) / 2_
 
 &nbsp;
 
